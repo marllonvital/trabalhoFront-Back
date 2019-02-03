@@ -1,0 +1,43 @@
+<div class="container first-text">
+  <h1>Contato</h1>
+  Telefone: (21)9999-0000
+  <p>E-mail: contato@nossosbats.org.br<p>
+</div>
+<div class="animated fadeIn row col s12 offset-s2" id="row1">
+  <div class="row col l12">
+    <h4>Caso deseje entrar em contato com nossa equipe:</h4>
+    <form #contato="ngForm" (ngSubmit)="onSubmit(contato)">
+      <div class="container row">
+        <div class="input-field col l6  m12 offset-m6 s6">
+          <input id="usuario" type="text" name="usuario" ngModel required #usuario="ngModel">
+          <label for="usuario">Nome</label>
+        </div>
+        <div class="input-field col l6 m12 offset-m6 s6">
+          <input id="email" type="text" name="email" ngModel required #email="ngModel">
+          <label for="email">E-mail</label>
+        </div>
+        <div class="input-field col l6 m12 offset-m6 s6">
+          <input id="telefone" type="text" name="telefone" ngModel required #telefone="ngModel">
+          <label for="telefone">Telefone</label>
+        </div>
+        <div class="input-field col l6 m12 offset-m6 s6">
+          <input id="assunto" type="text" name="assunto" ngModel required #assunto="ngModel">
+          <label for="assunto">Assunto</label>
+        </div>
+        <div class="text-area col l6 m12 offset-m6 s6">
+          Seu comentário:
+          <textarea rows="30" cols="80" id="textarea" type="text">
+          </textarea>
+        </div>
+      </div>
+      <div class="row col l4 offset-l4 m12 offset-m6 s12">
+        <button class="waves-effect waves-light btn" type="submit" [disabled]="usuario.invalid || email.invalid || telefoneError || assunto.invalid">LOGIN</button>
+      </div>
+      
+      <!-- Aqui ocorre a verificação dos espaços do formulário, com uma verificação maior no campo telefone -->
+      <div class="errors"*ngIf="usuario.touched && usuario.invalid || email.touched && email.invalid ||telefoneError.touched && telefone.invalid || assunto.touched && assunto.invalid">
+        <p>Campo(s) Obrigatório(s).</p>
+      </div>
+    </form>
+  </div>
+</div>

@@ -1,0 +1,42 @@
+h1{
+	font-family: 'Merienda';
+}
+
+.first-text{
+	font-family: 'Hind Vadodara';
+	color:white;
+	font-size: 1.2em;
+}
+
+button{
+  background-color: #a71814
+ }
+
+.row{
+  text-align: center;
+  color:white;
+  font-family: 'Merienda', cursive;
+}
+
+#row1{
+  margin-top: 7%;
+}
+
+label{
+	color:white;
+}
+
+input{
+	text-align: center;
+}
+
+textarea{
+	text-align: center;
+	height: 50vh;
+	width: 65vw;
+}
+
+.errors{
+	color:red;
+	font-size: 1.3em;
+}

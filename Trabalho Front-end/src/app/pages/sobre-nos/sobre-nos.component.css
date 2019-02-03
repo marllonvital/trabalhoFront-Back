@@ -1,0 +1,26 @@
+.img-bats{
+	margin-left: -20vw;
+	margin-top: 1vh;
+	height: 60vh;
+	width: 90vw;
+}
+
+h4{
+	font-family: 'Merienda', bold;
+	color: #BABABA;
+}
+
+.about-us{
+	font-family: 'Permanent Marker', cursive;
+	color:white;
+}
+
+.text-about-us{
+	font-family: 'Hind Vadodara';
+	font-size: 1.1em;
+}
+
+.text-about-us2{
+	font-family: 'Hind Vadodara';
+	font-size: 1.1em;
+}

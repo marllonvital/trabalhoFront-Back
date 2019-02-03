@@ -1,0 +1,44 @@
+.home-page{
+  color:white;
+  font-size: 1.0em;
+  font-family: 'Hind Vadodara';
+}
+
+.carousel-slider{
+  background-size:100% auto;
+  background-repeat: no-repeat;
+}
+
+.text{
+  text-align: center;
+}
+
+h1{
+  font-family: 'Merienda', cursive;
+}
+
+.news-img{
+  height: 35vh;
+}
+
+.news{
+  text-align: center;
+  margin-top: 20vh;
+}
+.news-text{
+  color: #D1D1D1;
+  font-size: 1.2em;
+}
+.news-text:hover{
+  color: #106F8F;
+}
+
+.partners{
+  text-align: center;
+  margin-top: 20vh;
+}
+
+.partners1{
+ height: 40vh;
+ padding: 4vw;
+}

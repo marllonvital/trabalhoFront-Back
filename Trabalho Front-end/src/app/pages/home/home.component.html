@@ -1,0 +1,29 @@
+ <div class="home-page">
+	 <div #carousel class="carousel" [ngClass]="{ 'initialized': showInitialized }" materialize="carousel" [materializeActions]="actions">
+	    <a *ngFor="let url of imageURLs" class="carousel-item"><img [src]="url"></a>
+	 </div>
+	 <div class="container row col l4 s6">
+	 	<div class="text">
+	 		<h1>BAT-ZIL ONG</h1>
+	 		<p>Em conjunto com parceiros, buscamos difundir a importância dos morcegos para o ecossistema e conscientizar a população a cuidar e proteger os animais que além de importantes são amigáveis.</p>
+	 	</div>
+	 </div>
+	 <div class="news col l4 s3">
+	 	<h1>Notícias</h1>
+	 	<div>
+		 	<img class="news-img left z-depth-5" src="/assets/imagens/bosnia.jpg"/>
+		 	<img class="news-img center z-depth-5" src="/assets/imagens/bats9.jpg"/>
+			<img class="news-img right z-depth-5" src="/assets/imagens/morcego.jpg"/>
+			<!-- Aqui há uma separação entre as imagens e as fontes. -->
+			<p><a class="left news-text" href="http://www.eurobats.org/node/1564">Placas alertando sobre morcegos são erguidas</a></p>
+			<a class="center news-text" href="https://www.pensamentoverde.com.br/meio-ambiente/lei-protecao-controle-morcegos-brasil/">Lei de proteção a morcegos</a>
+			<a class="right news-text" href="http://g1.globo.com/rs/rio-grande-do-sul/nossa-terra/2013/noticia/2013/12/morcegos-sao-fundamentais-para-cidades-diz-pesquisadora-do-rs.html">Morcegos são fundamentais para cidades</a>
+		</div>
+	 </div>
+	 <div class="container partners col l4 s3">
+	 	<h1>Parceiros</h1>
+	 	<a href="https://www.wcmc.org.uk/"><img class="partners1" src="/assets/imagens/wcmc.png"></a>
+	 	<a href="http://web.unep.org/"><img class="partners1" src="/assets/imagens/unep.png"></a>
+	 	<a href="http://www.eurobats.org/"><img class="partners1" src="/assets/imagens/eurobats.png"></a>
+	 </div>
+</div>

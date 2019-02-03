@@ -1,0 +1,32 @@
+h5{
+	font-family: 'Merienda', cursive;
+	padding-right: 4vw;
+}
+
+.page-footer{
+	margin-top: 40vh;
+	height: 40vh;
+	background: #000000;
+	background: -webkit-linear-gradient(to left, #000000, #434343);
+	background: linear-gradient(to left, #000000, #434343);
+}
+
+.img-footer{
+	height: 10vh;
+	padding-right: 1.5vw;
+}
+
+.footer-copyright{
+	margin-top: 10vh;
+	padding-left: 15vw;
+	font-family: 'Merienda', bold;
+	background: #000000;
+	background: -webkit-linear-gradient(to left, #000000, #434343);
+	background: linear-gradient(to left, #000000, #434343);
+	text-align: center;
+	color:white;
+}
+
+.container{
+	font-family: 'Merienda', cursive;
+}
